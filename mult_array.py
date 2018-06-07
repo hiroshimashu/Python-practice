@@ -15,4 +15,3 @@ def mult_array(num_row, num_column):
 
 print(mult_array(1, 1))
 print(mult_array(3, 5))
-

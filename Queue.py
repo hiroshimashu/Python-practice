@@ -9,9 +9,3 @@ class Queue:
         return self.items.pop()
     def size(self):
         return len(self.items)
-
-q = Queue()
-print(q.isEmpty())
-q.enqueue(5)
-q.dequeue()
-print(q.items)
